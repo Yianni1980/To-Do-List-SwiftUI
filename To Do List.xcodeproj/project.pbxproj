@@ -30,6 +30,7 @@
 		0B12CE762A002F2E008BB11D /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B12CE752A002F2E008BB11D /* LoginViewViewModel.swift */; };
 		0B12CE782A002F3B008BB11D /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B12CE772A002F3B008BB11D /* RegisterViewViewModel.swift */; };
 		0B12CE7A2A002F8B008BB11D /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B12CE792A002F8B008BB11D /* ToDoListItemViewViewModel.swift */; };
+		0B6D264B2A019EEA00933782 /* HeaderView().swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D264A2A019EEA00933782 /* HeaderView().swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		0B12CE752A002F2E008BB11D /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		0B12CE772A002F3B008BB11D /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		0B12CE792A002F8B008BB11D /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
+		0B6D264A2A019EEA00933782 /* HeaderView().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HeaderView().swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				0B12CE632A002E01008BB11D /* LoginView.swift */,
 				0B12CE672A002E5D008BB11D /* ToDoItemListView.swift */,
 				0B12CE652A002E14008BB11D /* RegisterView.swift */,
+				0B6D264A2A019EEA00933782 /* HeaderView().swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			files = (
 				0B12CE642A002E01008BB11D /* LoginView.swift in Sources */,
 				0B12CE452A00231A008BB11D /* MainView.swift in Sources */,
+				0B6D264B2A019EEA00933782 /* HeaderView().swift in Sources */,
 				0B12CE782A002F3B008BB11D /* RegisterViewViewModel.swift in Sources */,
 				0B12CE602A002DDE008BB11D /* ToDoListView.swift in Sources */,
 				0B12CE662A002E14008BB11D /* RegisterView.swift in Sources */,
