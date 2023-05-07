@@ -32,6 +32,7 @@
 		0B12CE782A002F3B008BB11D /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B12CE772A002F3B008BB11D /* RegisterViewViewModel.swift */; };
 		0B12CE7A2A002F8B008BB11D /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B12CE792A002F8B008BB11D /* ToDoListItemViewViewModel.swift */; };
 		0B6D264B2A019EEA00933782 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D264A2A019EEA00933782 /* HeaderView.swift */; };
+		0B833B682A06E8960066A4AF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B833B672A06E8960066A4AF /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		0B12CE772A002F3B008BB11D /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		0B12CE792A002F8B008BB11D /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		0B6D264A2A019EEA00933782 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		0B833B672A06E8960066A4AF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				0B12CE462A00231B008BB11D /* Assets.xcassets */,
 				0B12CE422A00231A008BB11D /* To_Do_ListApp.swift */,
 				0B12CE572A00295E008BB11D /* GoogleService-Info.plist */,
+				0B833B672A06E8960066A4AF /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				0B12CE722A002F00008BB11D /* ToDoListViewViewModel.swift in Sources */,
 				0B12CE762A002F2E008BB11D /* LoginViewViewModel.swift in Sources */,
 				0B12CE6C2A002EAF008BB11D /* ToDoListItem.swift in Sources */,
+				0B833B682A06E8960066A4AF /* Extensions.swift in Sources */,
 				0B12CE622A002DF7008BB11D /* NewItemView.swift in Sources */,
 				0B12CE6E2A002ED7008BB11D /* MainViewViewModel.swift in Sources */,
 				0B12CE742A002F16008BB11D /* NewItemViewViewModel.swift in Sources */,
