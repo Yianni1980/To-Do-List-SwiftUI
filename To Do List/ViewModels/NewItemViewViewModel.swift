@@ -22,8 +22,10 @@ class NewItemViewViewModel:ObservableObject {
         
         //get current userID
         guard let uId = Auth.auth().currentUser?.uid else {
+        
             return
         }
+        print(uId)
         // create model
         let newId = UUID().uuidString
         let newItem = ToDoListItem(id: newId,
@@ -36,7 +38,7 @@ class NewItemViewViewModel:ObservableObject {
         db.collection("users")
             .document(uId)
             .collection("todos")
-            .document("123")
+            .document(newId)
             .setData(newItem.asDictionary())
     }
     
