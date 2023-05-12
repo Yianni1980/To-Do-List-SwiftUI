@@ -15,6 +15,7 @@ struct ToDoListItem:Codable,Identifiable {
     var isDone:Bool
     
     mutating func setDone(_ state:Bool) {
+        print(state)
         isDone = state
         
     }
